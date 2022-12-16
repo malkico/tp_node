@@ -22,16 +22,4 @@ db.once("open", function () {
 
 app.use("/api/users/", require("./routes/user"))
 app.use("/api/playlists/", require("./routes/playlist"))
-app.use("/api/songs/", require("./routes/song"))
-
-// routes
-/*
-app.get('/api/playlists',  getPlayLists)
-app.post("/api/users/add", add)
-app.post("/api/playlists/add", addP)
-/*
-app.post('/api/playlist',  createF)
-app.get("/api/user/findF/:nom", findF)
-app.delete("/api/user/removeF/:nom", removeF)
-app.put("/api/user/editF/:id", editF) */
- 
+app.use("/api/songs/", require("./routes/song")) 

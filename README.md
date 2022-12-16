@@ -12,3 +12,9 @@ npm i -g pm2 && npm i
 ```
 npm start
 ```
+
+## New Features
+
+- Express Routers
+- Populate annd select mongoose operators
+- hashing passwords
